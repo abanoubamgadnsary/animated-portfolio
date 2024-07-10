@@ -13,7 +13,6 @@
     flex-direction: column;
     padding: 20px;
     gap: 20px;
-    border: 1px solid red;
   }
 
   .textContainer {
@@ -25,7 +24,6 @@
     padding-left: 50px;
 
     @include mobile {
-      border: 1px solid red;
       padding-left: 20px;
       width: 100%;
       flex-direction: column;
@@ -82,10 +80,12 @@
       position: absolute;
       margin: auto;
       z-index: -1;
+      width: 450px;
+      height: 450px;
 
       @include mobile {
-        max-width: 100px;
-        border: 1px solid red;
+        margin: auto;
+        max-width: 350px;
       }
     }
   }
