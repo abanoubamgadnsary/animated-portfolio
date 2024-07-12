@@ -83,7 +83,7 @@ function Hero() {
         Web Developer And Desginer
       </motion.div>
       <div className="imgContainer">
-        <img src="/hero.png" alt="" />
+        <img src="hero.png" alt="" />
       </div>
     </div>
   );
