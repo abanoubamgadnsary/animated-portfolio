@@ -40,7 +40,7 @@ function Services() {
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/people.webp" alt="" />
+          <img src="people.webp" alt="" />
           <h1>
             <b>Unique</b> Ideas
           </h1>

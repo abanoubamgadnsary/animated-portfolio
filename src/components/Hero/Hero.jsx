@@ -69,7 +69,7 @@ function Hero() {
           <motion.img
             variants={variants}
             animate="scrollButton"
-            src="/scroll.png"
+            src="scroll.png"
             alt=""
           />
         </motion.div>
