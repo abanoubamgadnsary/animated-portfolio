@@ -49,10 +49,8 @@ function Hero() {
           initial="inital"
           animate="animate"
         >
-          <motion.h2 variants={variants}>Abanoub Amgad</motion.h2>
-          <motion.h1 variants={variants}>
-            Web Developer and UI Desginer
-          </motion.h1>
+          <motion.h2 variants={variants}>Abanoub Nasry</motion.h2>
+          <motion.h1 variants={variants}>Front-End Developer</motion.h1>
 
           <motion.div variants={variants} className="buttons">
             <motion.a variants={variants} href="#portfolio">
@@ -83,7 +81,7 @@ function Hero() {
         Web Developer And Desginer
       </motion.div>
       <div className="imgContainer">
-        <img src="hero.png" alt="" />
+        <img src="profile.png" alt="" />
       </div>
     </div>
   );

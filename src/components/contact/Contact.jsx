@@ -38,17 +38,17 @@ const Contact = () => {
         <motion.h1 variants={variants}>Let's Work Together</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
-          <span>Hello-dev@react</span>
+          <span>abanoubnasry9@gmail.com</span>
         </motion.div>
 
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
-          <span>Hello Street NY</span>
+          <span>Egypt, Luxor</span>
         </motion.div>
 
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
-          <span>+1 234 5678</span>
+          <span>+20 12280 60528</span>
         </motion.div>
       </motion.div>
 
@@ -90,7 +90,7 @@ const Contact = () => {
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
           <textarea
-            rows={8}
+            rows={5}
             id="message"
             name="message"
             placeholder="Message"

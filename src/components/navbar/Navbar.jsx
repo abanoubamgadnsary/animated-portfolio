@@ -14,18 +14,20 @@ const Navbar = () => {
           Abanoub Amgad
         </motion.span>
         <div className="social-links">
-          <a href="#">
-            <img src="facebook.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="instagram.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="youtube.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="dribbble.png" alt="" />
-          </a>
+          <motion.a
+            target="_blank"
+            whileHover={{ scale: 1.1 }}
+            href="www.linkedin.com/in/abanoub-nasry-830a32261"
+          >
+            <img src="linkedin.webp" alt="LinkedIn" />
+          </motion.a>
+          <motion.a
+            target="_blank"
+            whileHover={{ scale: 1.1 }}
+            href="https://github.com/abanoubamgadnsary/animated-portfolio"
+          >
+            <img src="github.png" alt="GitHub" />
+          </motion.a>
         </div>
       </div>
     </div>

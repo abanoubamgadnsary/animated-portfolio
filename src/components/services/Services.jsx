@@ -49,11 +49,13 @@ function Services() {
           <h1>
             <b>For Your</b> Business
           </h1>
-          <button>WHAT WE DO?</button>
+          <a href="#portfolio">
+            <button>WHAT WE DID?</button>
+          </a>
         </div>
       </motion.div>
-      <motion.div className="listContainer" variants={variants}>
-        <div className="box">
+      {/*<motion.div className="listContainer" variants={variants}>
+         <div className="box">
           <h1>Branding</h1>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
@@ -92,8 +94,8 @@ function Services() {
             est necessitatibus sequi quod!
           </p>
           <button>Go</button>
-        </div>
-      </motion.div>
+        </div> 
+      </motion.div>*/}
     </motion.div>
   );
 }

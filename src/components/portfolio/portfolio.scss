@@ -13,7 +13,7 @@
     font-size: 26px;
 
     @include mobile {
-      padding-top: calc(100vh - 100px);
+      padding-top: calc(100vh - 70px);
       font-size: 20px;
       overflow: hidden;
     }
@@ -64,10 +64,8 @@
           height: 100%;
           width: 100%;
           object-fit: cover;
-
-          @include mobile {
-            object-fit: contain;
-          }
+          object-position: top;
+          border-radius: 10px;
         }
       }
 
