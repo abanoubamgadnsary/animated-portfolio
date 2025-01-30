@@ -13,7 +13,8 @@
     font-size: 26px;
 
     @include mobile {
-      padding-top: calc(100vh - 70px);
+      padding-top: calc(100vh - 7rem);
+
       font-size: 20px;
       overflow: hidden;
     }
@@ -44,12 +45,13 @@
       align-items: center;
       height: 100vh;
       margin: auto;
-      gap: 60px;
+      gap: 50px;
       overflow: hidden;
 
       @include mobile {
         flex-direction: column;
         justify-content: space-between;
+        padding-top: 2rem;
         gap: 30px;
       }
       .imgContainer {
