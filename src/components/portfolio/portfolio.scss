@@ -13,7 +13,7 @@
     font-size: 26px;
 
     @include mobile {
-      padding-top: calc(100vh - 7rem);
+      padding-top: calc(100vh - 20vh);
 
       font-size: 20px;
       overflow: hidden;
