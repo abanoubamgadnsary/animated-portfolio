@@ -58,12 +58,18 @@
       width: 100%;
     }
     form {
+      width: 90%;
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
       gap: 20px;
+      margin: 0 auto;
+      padding: 1rem;
 
       input,
       textarea {
+        width: 70%;
         background-color: transparent;
         border: 1px solid white;
         padding: 20px;
@@ -72,6 +78,8 @@
       }
 
       button {
+        width: 70%;
+
         padding: 20px;
         background-color: #ffa500;
         border: none;
